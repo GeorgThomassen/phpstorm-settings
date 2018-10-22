@@ -9,6 +9,7 @@
     <keyboard-shortcut first-keystroke="shift meta 7" />
   </action>
   <action id="Console.TableResult.Reload" />
+  <action id="DatabaseView.PropertiesAction" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta r" />
@@ -20,7 +21,9 @@
     <keyboard-shortcut first-keystroke="meta p" />
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
-  <action id="ParameterInfo" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="Refresh" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt r" />
