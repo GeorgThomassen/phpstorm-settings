@@ -236,6 +236,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ff90d0" />
+      </value>
+    </option>
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FOREGROUND" value="b084eb" />
@@ -393,6 +398,22 @@
       <value>
         <option name="FOREGROUND" value="f3f3f3" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="ff90d0" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ff90d0" />
+      </value>
+    </option>
+    <option name="JS.REGEXP">
+      <value>
+        <option name="FOREGROUND" value="13ffdc" />
       </value>
     </option>
     <option name="JSON.PROPERTY_KEY">
