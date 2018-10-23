@@ -17,14 +17,17 @@
     <option name="GUTTER_BACKGROUND" value="292a2b" />
     <option name="INDENT_GUIDE" value="373b41" />
     <option name="LINE_NUMBERS_COLOR" value="676b79" />
+    <option name="METHOD_SEPARATORS_COLOR" value="373b41" />
     <option name="MODIFIED_LINES_COLOR" value="676b79" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="3c3f41" />
     <option name="RIGHT_MARGIN_COLOR" value="373b41" />
+    <option name="SELECTED_INDENT_GUIDE" value="3c3f41" />
     <option name="SELECTED_TEARLINE_COLOR" value="3c3f41" />
     <option name="SELECTION_BACKGROUND" value="373b41" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="373b41" />
     <option name="TEARLINE_COLOR" value="3c3f41" />
+    <option name="VISUAL_INDENT_GUIDE" value="373b41" />
     <option name="WHITESPACES" value="676b79" />
   </colors>
   <attributes>
@@ -36,7 +39,7 @@
     </option>
     <option name="BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="ff2c6d" />
+        <option name="EFFECT_COLOR" value="ec2864" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -97,6 +100,13 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="CTRL_CLICKABLE">
+      <value>
+        <option name="FOREGROUND" value="6db1ff" />
+        <option name="EFFECT_COLOR" value="6db1ff" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
@@ -139,6 +149,16 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_BRACES">
+      <value>
+        <option name="FOREGROUND" value="e6e6e6" />
+      </value>
+    </option>
+    <option name="DEFAULT_BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="e6e6e6" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="ffca7e" />
@@ -147,7 +167,7 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="f3f3f3" />
+        <option name="FOREGROUND" value="e6e6e6" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -164,7 +184,6 @@
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="13ffdc" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -176,7 +195,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="f3f3f3" />
+        <option name="FOREGROUND" value="e6e6e6" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -192,7 +211,12 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="ff2c6d" />
+        <option name="FOREGROUND" value="ff90d0" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffca7e" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -235,7 +259,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="ff2c6d" />
+        <option name="FOREGROUND" value="ff90d0" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -252,7 +276,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="6db1ff" />
+        <option name="FOREGROUND" value="7dc1ff" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -300,7 +324,7 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b084eb" />
+        <option name="FOREGROUND" value="6db1ff" />
         <option name="EFFECT_COLOR" value="b084eb" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -348,6 +372,21 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="676b79" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -435,6 +474,7 @@
         <option name="FOREGROUND" value="e6e6e6" />
       </value>
     </option>
+    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
       <value>
         <option name="EFFECT_COLOR" value="ff2c6d" />
