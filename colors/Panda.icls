@@ -219,6 +219,11 @@
         <option name="FOREGROUND" value="ff90d0" />
       </value>
     </option>
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="ff90d0" />
+      </value>
+    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="ffca7e" />
@@ -439,6 +444,11 @@
     <option name="LOG_WARNING_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffb86c" />
+      </value>
+    </option>
+    <option name="MAGIC_MEMBER_ACCESS">
+      <value>
+        <option name="FOREGROUND" value="ff90d0" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_1">
