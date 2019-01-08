@@ -21,6 +21,9 @@
     <keyboard-shortcut first-keystroke="meta p" />
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="Jdbc.RunSqlScript">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -34,9 +37,16 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="Rerun" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="RunDashboard.Run">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="Vcs.Log.Refresh" />
   <action id="hg4idea.QRefresh" />
